@@ -1,4 +1,4 @@
-import React, { ChangeEventHandler, FormEventHandler, useState } from "react";
+import { ChangeEventHandler, FormEventHandler, useState } from "react";
 import { useAppDispach } from "../hooks/selectorAndDispatchHooks";
 import { addTodo } from "../store/todoReducer";
 
